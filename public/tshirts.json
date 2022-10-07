@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "623853b2614ad5aba311fdd1",
+    "index": 0,
+    "price": 14,
+    "picture": "https://cdn11.bigcommerce.com/s-2gncvdgiio/images/stencil/1280x1280/products/122539/220569/Just_Chill_wwn_250820__35627.1599170246.jpg?c=1",
+    "name": "Just Chill",
+    "gender": "Just Chill"
+  },
+  {
+    "_id": "623853b2578e9e6ad1ae0dd5",
+    "index": 1,
+    "picture": "https://ih1.redbubble.net/image.383843549.4710/ssrco,slim_fit_t_shirt,mens,101010:01c5ca27c6,front,square_product,600x600.u2.jpg",
+    "name": "Keep Coding",
+    "price": 27,
+    "gender": "Keep Coding"
+  },
+  {
+    "_id": "623853b21fb149d2ee7b76c7",
+    "index": 2,
+    "picture": "https://pyxis.nymag.com/v1/imgs/05d/b15/f4c61238a24a34610ae3a41dede1df90a4-Gildan-black-tshirt.2x.rsquare.w600.jpg",
+    "name": "Black",
+    "price": 24,
+    "gender": ""
+  },
+  {
+    "_id": "623853b2e91c8de578c9245e",
+    "index": 3,
+    "picture": "https://m.media-amazon.com/images/I/51IpN5tBWpL._UL1000_.jpg",
+    "name": "Mix Yellow",
+    "price": 14,
+    "gender": "Mix Yellow"
+  },
+  {
+    "_id": "623853b2239582e48409ccc6",
+    "index": 4,
+    "price": 34,
+    "picture": "https://www.swagshirts99.com/wp-content/uploads/2016/04/image-25.jpeg",
+    "name": "Bachelor",
+    "gender": "male"
+  },
+  {
+    "_id": "623853b2cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://ih1.redbubble.net/image.2621357599.5882/ssrco,slim_fit_t_shirt,womens,101010:01c5ca27c6,front,square_product,600x600.jpg",
+    "name": "Right Price",
+    "price": 141,
+    "gender": "female"
+  },
+  {
+    "_id": "623853b2736f19fd4eb8d44a",
+    "index": 6,
+    "price": 41,
+    "picture": "https://skull-kingdom.com/wp-content/uploads/2020/08/t-shirt-head-of-dead-black-women-3xl-at-sell.jpg",
+    "name": "Black Skull",
+    "gender": "female"
+  }
+]
