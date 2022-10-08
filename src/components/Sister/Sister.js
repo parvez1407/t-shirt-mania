@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { MoneyContext } from '../Grandpa/Grandpa';
 
-const Sister = () => {
+const Sister = ({ house }) => {
+    const [money, setMoney] = useContext(MoneyContext);
     return (
-        <div className='border-orange-300 m-3 p-4 border-2'>
+        <div>
             <h5>Sister</h5>
+            <p>House: {house}</p>
+            <p>Money: {money}</p>
+            <button onClick={() => setMoney(money + 1000)} className='bg-orange-700 px-4 py-2 mt-3 rounded-lg'>Add 1000</button>
         </div>
     );
 };

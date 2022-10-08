@@ -3,14 +3,15 @@ import Brother from '../Brother/Brother';
 import Myself from '../Myself/Myself';
 import Sister from '../Sister/Sister';
 
-const Father = () => {
+const Father = ({ house, ring }) => {
     return (
-        <div className='border-orange-300 border-2'>
+        <div>
             <h4>Father</h4>
-            <section className='border-orange-300 border-2 flex p-3'>
-                <Myself></Myself>
-                <Brother></Brother>
-                <Sister></Sister>
+            <p>House: {house}</p>
+            <section className='flex'>
+                <Myself house={house} ring={ring}></Myself>
+                <Brother house={house}></Brother>
+                <Sister house={house}></Sister>
             </section>
         </div>
     );

@@ -1,9 +1,14 @@
 import React from 'react';
+import Special from '../Special/Special';
 
-const Myself = () => {
+const Myself = ({ house, ring }) => {
     return (
-        <div className='border-orange-300 border-2 m-3 p-4'>
+        <div>
             <h5>Myself</h5>
+            <p>House: {house}</p>
+            <section>
+                <Special ring={ring}></Special>
+            </section>
         </div>
     );
 };

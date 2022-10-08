@@ -1,9 +1,15 @@
 import React from 'react';
+import Cousin from '../Cousin/Cousin';
 
-const Aunty = () => {
+const Aunty = ({ house }) => {
     return (
-        <div className='border-orange-300 border-2'>
+        <div>
             <h4>Aunty</h4>
+            <p>House: {house}</p>
+            <section className='flex'>
+                <Cousin house={house}></Cousin>
+                <Cousin house={house}></Cousin>
+            </section>
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Brother = () => {
+const Brother = ({ house }) => {
     return (
-        <div className='border-orange-300 m-3 p-4 border-2'>
+        <div>
             <h5>Brother</h5>
+            <p>House: {house}</p>
         </div>
     );
 };
